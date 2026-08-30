@@ -1,0 +1,9 @@
+# Keep protected text-file hashes identical on Ubuntu and Windows checkouts.
+* text=auto eol=lf
+
+# Never apply line-ending conversion to binary course or generated artifacts.
+*.png binary
+*.npz binary
+*.pt binary
+*.pth binary
+*.whl binary

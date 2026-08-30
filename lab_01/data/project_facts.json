@@ -1,0 +1,11 @@
+{
+  "project": "Brain MRI object detection",
+  "dataset_page": "https://www.kaggle.com/datasets/ammarahmed310/labeled-mri-brain-tumor-dataset",
+  "license": "CC0 Public Domain",
+  "input": "one RGB brain MRI image",
+  "labels": ["glioma", "meningioma", "pituitary"],
+  "notumor_images": "valid negative examples; return no boxes",
+  "result": "zero or more labeled boxes for human review",
+  "full_dataset_needed_from": "Lab 04",
+  "use": "education only; not a medical diagnosis"
+}
