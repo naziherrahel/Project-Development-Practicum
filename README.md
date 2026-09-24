@@ -27,9 +27,9 @@ git clone https://github.com/naziherrahel/Project-Development-Practicum.git
 cd Project-Development-Practicum
 ```
 
-Because the repository is private, GitHub may ask you to sign in. If GitHub
-says **Repository not found**, confirm that you are using the GitHub account
-that has course access.
+GitHub may ask you to sign in depending on the repository access settings. If
+GitHub says **Repository not found**, confirm the course link and the account
+you are using.
 
 If you receive a ZIP file, extract it before running commands. A student who
 completed Lab 01 in an older ZIP must copy these two completed files into the
