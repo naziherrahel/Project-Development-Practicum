@@ -1,0 +1,24 @@
+{
+  "workflow_parts": [
+    "INPUT",
+    "VALIDATION",
+    "PREPROCESSING",
+    "DETECTOR",
+    "RESULT",
+    "HUMAN-REVIEW"
+  ],
+  "case_ids": [
+    "VALID_IMAGE",
+    "MISSING_FILE",
+    "UNSUPPORTED_IMAGE",
+    "UNCERTAIN_RESULT",
+    "CONFIDENT_RESULT"
+  ],
+  "fixed_rules": [
+    "validation accepts an image before preprocessing or detection",
+    "missing or unsupported input does not reach the detector",
+    "every model output reaches human review",
+    "no result authorizes an automatic medical action"
+  ],
+  "dataset_images_required": false
+}
